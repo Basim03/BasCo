@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+ 
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pexels-cottonbro-4659806.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container
+{
+    width: 60%;
+    height: 800px;
+    background-color: #13334c;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.inner-box{
+    border-radius: 10px;
+    width: 75%;
+    height: 90%;
+    background-color: #f6f6e9;
+    
+}
+h1{
+    
+    color: #fd5f00;
+    border: #13334c solid;
+    height: max-content;
+    width: 50%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    border-radius: 20px;
+    text-transform: uppercase;
+    background-color: #13334c;
+}
+.heading
+{
+    /* border: solid 5px; */
+    display: flex;
+    justify-content: center;
+}
+.input
+{
+    width: 100%;
+    height: 88%;
+    /* border: solid 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+border-radius: 0px 0px 10px 10px;
+     
+}
+.contact
+{
+    width: 80%;
+    height: 90%;
+    background-color: #13334c;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contact2
+{
+    padding: 10px;
+    display: block;
+}
+.input2
+{
+    margin-left:px;
+    
+}
+.detail
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color:white;
+}
+.message
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: #f6f6e9;
+    border-radius: 10px;
+}
+.button
+{
+    /* display: flex; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+}
+.button ul li
+{
+
+    border: #f6f6e9 solid;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: rgb(0, 239, 159);
+
+}
+.button ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.button ul li:hover
+{
+
+    background-color: rgb(38, 246, 10);
+
+    
+
+}
+.input2{
+    border: #f6f6e9 solid 5px;
+    border-radius: 10px;
+}

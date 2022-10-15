@@ -1,0 +1,113 @@
+*{
+box-sizing: border-box;
+/* background-color: brown; */
+}
+body{
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #222;
+    font-weight: 300;
+}
+.container
+{
+    /* size: 100%; */
+    width: 80%;
+}
+.head{
+padding: 10px 0;
+}
+
+.heading {
+    border: 5px solid;
+    width: 150px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    /* margin-top: 30px; */
+    margin-left: 20px;
+    
+
+}
+header {
+    background-color: aquamarine;
+    position: relative;
+
+}
+a{
+/* text-decoration:rgb(0, 10, 14); */
+/* display: inline-block; */
+/* text-transform: uppercase; */
+text-decoration: none;
+text-transform: uppercase;
+
+
+}
+
+.items
+{
+   float: right;
+}
+header::after {
+
+content: '';
+display: table;
+clear: both;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+    display: inline-block;
+margin-left: 70px;
+/* padding-top: px; */
+margin-bottom: 20px;
+font-size: 20px;
+}
+nav a:hover{
+color: #000;
+
+transition: 0.4s;
+}
+.dropdown
+{
+    display: none;
+}
+nav ul li:hover .dropdown 
+{
+    padding-right: 20px;
+display: block;
+position: absolute;
+left:800px;
+top: 100%;
+border-radius: 0 0 10px 10px;
+background-color: aquamarine;
+}
+nav ul li:hover .dropdown li
+{
+    display: block;
+}
+nav ul li:hover .dropdown ul li{
+    width: 100px;
+    padding: 10px;
+    
+}
+.fas
+{
+    float: right;
+    margin-left: 10px;
+    padding-top: 3px;
+}
+
+
+
+
+/* footer starts here */
+/*
+    Auther: Abdelrhman Said
+*/
+
+/* 
